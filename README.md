@@ -2,6 +2,10 @@
 
 This project is an EMI (Equated Monthly Installment) Calculator built with Vite+React & Typescript. It allows users to calculate monthly EMIs for a loan based on the principal amount, annual interest rate, and loan tenure. The calculator also supports optional prepayments and provides an amortization schedule to visualize loan repayment over time.
 
+## Deployment 🛜
+
+- Access live demo here: https://emi-calc-dpk.vercel.app
+
 ## Features 🚀
 
 - **EMI Calculation**: Calculate the monthly EMI for a loan based on the loan amount, interest rate, and tenure.
