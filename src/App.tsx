@@ -23,7 +23,7 @@ function App() {
     />
   ) : (
     <main className="min-h-screen max-w-screen overflow-x-hidden bg-slate-900 text-white">
-      <section className="background flex lg:px-10 lg:py-20 py-10 items-center gap-10 flex-col w-full overflow-x-hidden h-full">
+      <section className="background flex lg:px-10 lg:py-16 py-10 items-center gap-10 flex-col w-full overflow-x-hidden min-h-screen">
         <header className="flex-center flex-col">
           <h1 className="text-6xl font-semibold border-b-2 border-b-slate-600 bg-gradient-to-br from-purple-500 via-slate-400 to-purple-500 w-fit bg-clip-text text-transparent pb-0.5 mb-0.5">
             EMI-Calc

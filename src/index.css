@@ -49,6 +49,20 @@
   border-radius: 8px;
 }
 
+.side-boxes-right {
+  position: absolute;
+  top: 50%;
+  right: 0.625rem;
+  transform: translateY(-50%);
+}
+
+.side-boxes-left {
+  position: absolute;
+  top: 50%;
+  left: 0.625rem;
+  transform: translateY(-50%);
+}
+
 .line-below {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)), linear-gradient(180deg, rgba(40, 40, 40, 0.1) 0%, rgba(248, 248, 248, 0.1) 100%);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.824);
