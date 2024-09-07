@@ -163,7 +163,7 @@ const Form = () => {
         <div className="side-line-left"></div>
 
         <div className="flex flex-col gap-0.5">
-          <label htmlFor="amount">Loan Amount</label>
+          <label htmlFor="amount">Loan Amount 💳</label>
           <input
             type="number"
             min={0}
@@ -182,7 +182,7 @@ const Form = () => {
           />
         </div>
         <div className="flex flex-col gap-0.5">
-          <label htmlFor="interest">Interest Rate</label>
+          <label htmlFor="interest">Interest Rate 💹</label>
           <input
             type="number"
             min={0}
@@ -203,7 +203,7 @@ const Form = () => {
           />
         </div>
         <div className="flex flex-col gap-0.5">
-          <label htmlFor="tenure">Tenure</label>
+          <label htmlFor="tenure">Tenure ⌛</label>
           <input
             type="number"
             min={0}
@@ -227,7 +227,7 @@ const Form = () => {
               htmlFor="pre-payment"
               className={`${!isPrePayment ? "text-gray-500" : "text-white"}`}
             >
-              Pre-payment(If applicable)
+              Pre-payment 💰(If applicable)
             </label>
             <input
               type="checkbox"
